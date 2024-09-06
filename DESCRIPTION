@@ -4,8 +4,13 @@ Title: Calculating with complex numbers
 Version: 0.1.0
 Author: Who wrote it
 Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: In this package you can find functions to calculate with two complex numbers. You can add , subtract, multiplicate and divide.
+   The numbers should be in the form z = a + b*i and w = c + d*i with real numbers a, b, c and d and i as the complex unit (i² = -1).
+   If the numbers are defined as above you can use the functions as following:
+    - z + w = add(a,b,c,d)
+    - z - w = dif(a,b,c,d)
+    - z * w = mult(a,b,c,d)
+    - z / w = div(a,b,c,d)
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
